@@ -32,7 +32,7 @@ Học kì II, 2019 - 2020
 
 #### Thu thập dữ liệu
 
-* Dữ liệu được thu thập bằng phương thức parse HTML.
+* Dữ liệu được thu thập bằng phương thức parse HTML sử dụng Selenium.
 
 #### Khám phá dữ liệu
 
