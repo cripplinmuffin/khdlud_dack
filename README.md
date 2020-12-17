@@ -1,8 +1,14 @@
-# Đồ án cuối kì 
+Lớp **Môn Khoa học dữ liệu và Ứng dụng - 17/21**  
+Học kì II, 2019 - 2020  
 
-#### Môn Khoa học dữ liệu và Ứng dụng 17/21
+---
 
-### Câu hỏi dề tài: Dự đoán giá cổ phiếu
+<center><b><font size="10">ĐỒ ÁN CUỐI KÌ<br>Dự đoán giá cổ phiếu</font></b></center>
+
+<center>
+    <font size="4"><b>Nhóm thực hiện:</b></font><br>
+    Trần Minh Trí - 1712834&emsp;Nguyễn Nhật Trường - 1712852<br>
+</center>
 
 ---
 
