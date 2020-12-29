@@ -3,12 +3,9 @@ Học kì II, 2019 - 2020
 
 ---
 
-<center><b><font size="10">ĐỒ ÁN CUỐI KÌ<br>Dự đoán giá cổ phiếu</font></b></center>
+# ĐỒ ÁN CUỐI KÌ
 
-<center>
-    <font size="4"><b>Nhóm thực hiện:</b></font><br>
-    Trần Minh Trí - 1712834&emsp;Nguyễn Nhật Trường - 1712852<br>
-</center>
+### Dự đoán giá cổ phiếu
 
 ---
 
@@ -42,13 +39,13 @@ Học kì II, 2019 - 2020
   * `High`: giá cao nhất.
   * `Low`: giá thấp nhất.
   * `Close`: giá đóng cửa.
-* Trong đó, cột `Date` có kiểu dữ liệu `datetime`, các cột còn lại có kiểu `float`.
-* Dữ liệu (chưa tiền xử lý) có 2868 dòng và 5 cột.
-* Dự đoán giá cổ phiếu là ta sẽ thực hiện **dự đoán giá đóng cửa cho các ngày kế tiếp**.
+* Dữ liệu (chưa tiền xử lý), sau khi đưa cột `Date` thành index, có 2868 dòng và 4 cột, với cả 4 cột đều có kiểu dữ liệu `float`:
+![image](./img/data_1.PNG)
+![image](./img/data_2.PNG)
 
 #### Các vấn đề sau khi thu thập dữ liệu
 
-* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do không có cập nhật giá cổ phiếu. **Chi tiết hơn?**
+* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do website không cập nhật giá cổ phiếu vào các ngày đó. Ta cần phải tiền xử lý dữ liệu để "fill" các giá trị còn thiếu ở các ngày đó.
 
 ---
 
@@ -57,6 +54,19 @@ Học kì II, 2019 - 2020
 ### 3.1 Tiền xử lý dữ liệu
 
 * **wip---**
+
+### 3.2 Trực quan hóa dữ liệu
+
+* Sau bước tiền xử lý, ta có biểu đồ giá đóng cho cổ phiếu BVH như sau:
+![image](./img/vis_1.png)
+* Biểu đồ dưới đây chỉ thể hiện giá trong 500 ngày đầu để dễ nhìn hơn số liệu thiếu được thêm vào:
+![image](./img/vis_2.png)
+* Với bộ dữ liệu được xử lý đầy đủ, ta sẽ thực hiện phân tích thành phần chuỗi thời gian (**Time-series decomposition**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**:
+![image](./img/vis_3.png)
+* **adding---**
+* Ta cũng xem qua **Autocorrelation** và **Partial autocorrelation** cho chuỗi thời gian:
+![image](./img/vis_4.png)
+* **adding---**
 
 ### 3.2 Mô hình hóa
 
