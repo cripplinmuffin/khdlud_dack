@@ -39,13 +39,13 @@ Học kì II, 2019 - 2020
   * `High`: giá cao nhất.
   * `Low`: giá thấp nhất.
   * `Close`: giá đóng cửa.
-* Trong đó, cột `Date` có kiểu dữ liệu `datetime`, các cột còn lại có kiểu `float`.
-* Dữ liệu (chưa tiền xử lý) có 2868 dòng và 5 cột.
-* Dự đoán giá cổ phiếu là ta sẽ thực hiện **dự đoán giá đóng cửa cho các ngày kế tiếp**.
+* Dữ liệu (chưa tiền xử lý), sau khi đưa cột `Date` thành index, có 2868 dòng và 4 cột, với cả 4 cột đều có kiểu dữ liệu `float`:
+![image](./img/data_1.png)
+![image](./img/data_2.png)
 
 #### Các vấn đề sau khi thu thập dữ liệu
 
-* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do website không cập nhật giá cổ phiếu.
+* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do website không cập nhật giá cổ phiếu vào các ngày đó. Ta cần phải tiền xử lý dữ liệu để "fill" các giá trị còn thiếu ở các ngày đó.
 
 ---
 
@@ -57,21 +57,26 @@ Học kì II, 2019 - 2020
 
 ### 3.2 Trực quan hóa dữ liệu
 
-* Sau khi hoàn thành tiền xử lý, ta có dữ liệu cổ phiếu BVH như sau:
+* Sau bước tiền xử lý, ta có biểu đồ giá đóng cho cổ phiếu BVH như sau:
 ![image](./img/vis_1.png)
-* Do các giá có xu hương tương tự nhau và như đã nói ở trên, giá đóng cửa `Close` sẽ là thành phần giá chính được sử dụng để dự đoán giá cổ phiếu, ta sẽ thực hiện phân tích thành phần chuỗi thời gian (**Time-series decompositon**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**:
+* Biểu đồ dưới đây chỉ thể hiện giá trong 500 ngày đầu để dễ nhìn hơn số liệu thiếu được thêm vào:
 ![image](./img/vis_2.png)
+* Với bộ dữ liệu được xử lý đầy đủ, ta sẽ thực hiện phân tích thành phần chuỗi thời gian (**Time-series decomposition**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**:
+![image](./img/vis_3.png)
+* **adding---**
+* Ta cũng xem qua **Autocorrelation** và **Partial autocorrelation** cho chuỗi thời gian:
+![image](./img/vis_4.png)
 * **adding---**
 
-### 3.3 Mô hình hóa
+### 3.2 Mô hình hóa
 
 * **wip---**
 
-### 3.5 Train model
+### 3.3 Train model
 
 * **wip---**
 
-### 3.6 Output
+### 3.4 Output
 
 * **wip---**
 
