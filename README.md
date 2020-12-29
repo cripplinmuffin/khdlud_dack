@@ -40,8 +40,8 @@ Học kì II, 2019 - 2020
   * `Low`: giá thấp nhất.
   * `Close`: giá đóng cửa.
 * Dữ liệu (chưa tiền xử lý), sau khi đưa cột `Date` thành index, có 2868 dòng và 4 cột, với cả 4 cột đều có kiểu dữ liệu `float`:
-![image](./img/data_1.png)
-![image](./img/data_2.png)
+![image](./img/data_1.PNG)
+![image](./img/data_2.PNG)
 
 #### Các vấn đề sau khi thu thập dữ liệu
 
