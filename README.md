@@ -3,12 +3,9 @@ Học kì II, 2019 - 2020
 
 ---
 
-<center><b><font size="10">ĐỒ ÁN CUỐI KÌ<br>Dự đoán giá cổ phiếu</font></b></center>
+# ĐỒ ÁN CUỐI KÌ
 
-<center>
-    <font size="4"><b>Nhóm thực hiện:</b></font><br>
-    Trần Minh Trí - 1712834&emsp;Nguyễn Nhật Trường - 1712852<br>
-</center>
+### Dự đoán giá cổ phiếu
 
 ---
 
@@ -48,7 +45,7 @@ Học kì II, 2019 - 2020
 
 #### Các vấn đề sau khi thu thập dữ liệu
 
-* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do không có cập nhật giá cổ phiếu. **Chi tiết hơn?**
+* Dữ liệu thu thập được là các dòng theo từng ngày, tuy nhiên, có một số ngày bị thiếu do website không cập nhật giá cổ phiếu.
 
 ---
 
@@ -58,15 +55,23 @@ Học kì II, 2019 - 2020
 
 * **wip---**
 
-### 3.2 Mô hình hóa
+### 3.2 Trực quan hóa dữ liệu
+
+* Sau khi hoàn thành tiền xử lý, ta có dữ liệu cổ phiếu BVH như sau:
+![image](./img/vis_1.png)
+* Do các giá có xu hương tương tự nhau và như đã nói ở trên, giá đóng cửa `Close` sẽ là thành phần giá chính được sử dụng để dự đoán giá cổ phiếu, ta sẽ thực hiện phân tích thành phần chuỗi thời gian (**Time-series decompositon**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**:
+![image](./img/vis_2.png)
+* **adding---**
+
+### 3.3 Mô hình hóa
 
 * **wip---**
 
-### 3.3 Train model
+### 3.5 Train model
 
 * **wip---**
 
-### 3.4 Output
+### 3.6 Output
 
 * **wip---**
 
