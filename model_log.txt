@@ -1,0 +1,358 @@
+ <<< Started models/LLDrDD_lag=0_step=40_batchsize=8_earlystop_p=10.pkl at 14:08:56
+Restoring model weights from the end of the best epoch.
+Epoch 00034: early stopping
+ <<< Finished. Time elapsed: 302.90969467163086
+ <<< Started models/LLDrDD_lag=0_step=40_batchsize=16_earlystop_p=10.pkl at 14:14:00
+Restoring model weights from the end of the best epoch.
+Epoch 00029: early stopping
+ <<< Finished. Time elapsed: 159.25308418273926
+ <<< Started models/LLDrDD_lag=0_step=40_batchsize=32_earlystop_p=10.pkl at 14:16:41
+Restoring model weights from the end of the best epoch.
+Epoch 00042: early stopping
+ <<< Finished. Time elapsed: 147.0371220111847
+ <<< Started models/LLDrDD_lag=0_step=40_batchsize=64_earlystop_p=10.pkl at 14:19:10
+Restoring model weights from the end of the best epoch.
+Epoch 00060: early stopping
+ <<< Finished. Time elapsed: 133.31393575668335
+ <<< Started models/LLDrDD_lag=0_step=40_batchsize=128_earlystop_p=10.pkl at 14:21:25
+Restoring model weights from the end of the best epoch.
+Epoch 00056: early stopping
+ <<< Finished. Time elapsed: 96.41915488243103
+ <<< Started models/LLDrDD_lag=0_step=60_batchsize=8_earlystop_p=10.pkl at 14:23:03
+Restoring model weights from the end of the best epoch.
+Epoch 00036: early stopping
+ <<< Finished. Time elapsed: 457.15485072135925
+ <<< Started models/LLDrDD_lag=0_step=60_batchsize=16_earlystop_p=10.pkl at 14:30:41
+Restoring model weights from the end of the best epoch.
+Epoch 00034: early stopping
+ <<< Finished. Time elapsed: 325.3870894908905
+ <<< Started models/LLDrDD_lag=0_step=60_batchsize=32_earlystop_p=10.pkl at 14:36:09
+Restoring model weights from the end of the best epoch.
+Epoch 00041: early stopping
+ <<< Finished. Time elapsed: 218.645690202713
+ <<< Started models/LLDrDD_lag=0_step=60_batchsize=64_earlystop_p=10.pkl at 14:39:49
+Restoring model weights from the end of the best epoch.
+Epoch 00065: early stopping
+ <<< Finished. Time elapsed: 221.4140763282776
+ <<< Started models/LLDrDD_lag=0_step=60_batchsize=128_earlystop_p=10.pkl at 14:43:32
+Restoring model weights from the end of the best epoch.
+Epoch 00046: early stopping
+ <<< Finished. Time elapsed: 151.57199239730835
+ <<< Started models/LLDrDD_lag=0_step=70_batchsize=8_earlystop_p=10.pkl at 14:46:06
+Restoring model weights from the end of the best epoch.
+Epoch 00029: early stopping
+ <<< Finished. Time elapsed: 507.2920618057251
+ <<< Started models/LLDrDD_lag=0_step=70_batchsize=16_earlystop_p=10.pkl at 14:54:35
+Restoring model weights from the end of the best epoch.
+Epoch 00037: early stopping
+ <<< Finished. Time elapsed: 397.0510411262512
+ <<< Started models/LLDrDD_lag=0_step=70_batchsize=32_earlystop_p=10.pkl at 15:01:15
+Restoring model weights from the end of the best epoch.
+Epoch 00032: early stopping
+ <<< Finished. Time elapsed: 233.54202580451965
+ <<< Started models/LLDrDD_lag=0_step=70_batchsize=64_earlystop_p=10.pkl at 15:05:11
+Restoring model weights from the end of the best epoch.
+Epoch 00071: early stopping
+ <<< Finished. Time elapsed: 287.0382237434387
+ <<< Started models/LLDrDD_lag=0_step=70_batchsize=128_earlystop_p=10.pkl at 15:10:00
+ <<< Finished. Time elapsed: 316.5978355407715
+ <<< Started models/LLDrDD_lag=0_step=85_batchsize=8_earlystop_p=10.pkl at 15:15:19
+Restoring model weights from the end of the best epoch.
+Epoch 00026: early stopping
+ <<< Finished. Time elapsed: 397.15453481674194
+ <<< Started models/LLDrDD_lag=0_step=85_batchsize=16_earlystop_p=10.pkl at 15:21:58
+Restoring model weights from the end of the best epoch.
+Epoch 00032: early stopping
+ <<< Finished. Time elapsed: 285.5809180736542
+ <<< Started models/LLDrDD_lag=0_step=85_batchsize=32_earlystop_p=10.pkl at 15:26:47
+Restoring model weights from the end of the best epoch.
+Epoch 00048: early stopping
+ <<< Finished. Time elapsed: 297.031564950943
+ <<< Started models/LLDrDD_lag=0_step=85_batchsize=64_earlystop_p=10.pkl at 15:31:47
+Restoring model weights from the end of the best epoch.
+Epoch 00048: early stopping
+ <<< Finished. Time elapsed: 269.46811532974243
+ <<< Started models/LLDrDD_lag=0_step=85_batchsize=128_earlystop_p=10.pkl at 15:36:18
+Restoring model weights from the end of the best epoch.
+Epoch 00100: early stopping
+ <<< Finished. Time elapsed: 346.9357862472534
+ <<< Started models/LLDrDD_lag=0_step=100_batchsize=8_earlystop_p=10.pkl at 15:42:07
+Restoring model weights from the end of the best epoch.
+Epoch 00031: early stopping
+ <<< Finished. Time elapsed: 714.1922459602356
+ <<< Started models/LLDrDD_lag=0_step=100_batchsize=16_earlystop_p=10.pkl at 15:54:03
+Restoring model weights from the end of the best epoch.
+Epoch 00033: early stopping
+ <<< Finished. Time elapsed: 421.4308776855469
+ <<< Started models/LLDrDD_lag=0_step=100_batchsize=32_earlystop_p=10.pkl at 16:01:07
+Restoring model weights from the end of the best epoch.
+Epoch 00055: early stopping
+ <<< Finished. Time elapsed: 431.14333319664
+ <<< Started models/LLDrDD_lag=0_step=100_batchsize=64_earlystop_p=10.pkl at 16:08:20
+Restoring model weights from the end of the best epoch.
+Epoch 00067: early stopping
+ <<< Finished. Time elapsed: 333.0264050960541
+ <<< Started models/LLDrDD_lag=0_step=100_batchsize=128_earlystop_p=10.pkl at 16:13:55
+Restoring model weights from the end of the best epoch.
+Epoch 00041: early stopping
+ <<< Finished. Time elapsed: 178.67995810508728
+ <<< Started models/LLDrDD_lag=0_step=110_batchsize=8_earlystop_p=10.pkl at 16:16:56
+Restoring model weights from the end of the best epoch.
+Epoch 00023: early stopping
+ <<< Finished. Time elapsed: 588.1766805648804
+ <<< Started models/LLDrDD_lag=0_step=110_batchsize=16_earlystop_p=10.pkl at 16:26:46
+Restoring model weights from the end of the best epoch.
+Epoch 00034: early stopping
+ <<< Finished. Time elapsed: 513.6314735412598
+ <<< Started models/LLDrDD_lag=0_step=110_batchsize=32_earlystop_p=10.pkl at 16:35:22
+Restoring model weights from the end of the best epoch.
+Epoch 00039: early stopping
+ <<< Finished. Time elapsed: 343.829398393631
+ <<< Started models/LLDrDD_lag=0_step=110_batchsize=64_earlystop_p=10.pkl at 16:41:08
+Restoring model weights from the end of the best epoch.
+Epoch 00061: early stopping
+ <<< Finished. Time elapsed: 366.2107448577881
+ <<< Started models/LLDrDD_lag=0_step=110_batchsize=128_earlystop_p=10.pkl at 16:47:17
+Restoring model weights from the end of the best epoch.
+Epoch 00093: early stopping
+ <<< Finished. Time elapsed: 382.3200647830963
+ <<< Started models/LLDrDD_lag=1_step=40_batchsize=8_earlystop_p=10.pkl at 16:53:41
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+ <<< Finished. Time elapsed: 287.5879201889038
+ <<< Started models/LLDrDD_lag=1_step=40_batchsize=16_earlystop_p=10.pkl at 16:58:31
+Restoring model weights from the end of the best epoch.
+Epoch 00030: early stopping
+ <<< Finished. Time elapsed: 199.086359500885
+ <<< Started models/LLDrDD_lag=1_step=40_batchsize=32_earlystop_p=10.pkl at 17:01:51
+Restoring model weights from the end of the best epoch.
+Epoch 00041: early stopping
+ <<< Finished. Time elapsed: 176.720050573349
+ <<< Started models/LLDrDD_lag=1_step=40_batchsize=64_earlystop_p=10.pkl at 17:04:50
+Restoring model weights from the end of the best epoch.
+Epoch 00053: early stopping
+ <<< Finished. Time elapsed: 121.65095639228821
+ <<< Started models/LLDrDD_lag=1_step=40_batchsize=128_earlystop_p=10.pkl at 17:06:54
+Restoring model weights from the end of the best epoch.
+Epoch 00053: early stopping
+ <<< Finished. Time elapsed: 109.90667676925659
+ <<< Started models/LLDrDD_lag=1_step=60_batchsize=8_earlystop_p=10.pkl at 17:08:46
+Restoring model weights from the end of the best epoch.
+Epoch 00027: early stopping
+ <<< Finished. Time elapsed: 394.97962498664856
+ <<< Started models/LLDrDD_lag=1_step=60_batchsize=16_earlystop_p=10.pkl at 17:15:22
+Restoring model weights from the end of the best epoch.
+Epoch 00035: early stopping
+ <<< Finished. Time elapsed: 328.64291310310364
+ <<< Started models/LLDrDD_lag=1_step=60_batchsize=32_earlystop_p=10.pkl at 17:20:53
+Restoring model weights from the end of the best epoch.
+Epoch 00046: early stopping
+ <<< Finished. Time elapsed: 224.2277979850769
+ <<< Started models/LLDrDD_lag=1_step=60_batchsize=64_earlystop_p=10.pkl at 17:24:39
+Restoring model weights from the end of the best epoch.
+Epoch 00057: early stopping
+ <<< Finished. Time elapsed: 161.65209341049194
+ <<< Started models/LLDrDD_lag=1_step=60_batchsize=128_earlystop_p=10.pkl at 17:27:22
+Restoring model weights from the end of the best epoch.
+Epoch 00046: early stopping
+ <<< Finished. Time elapsed: 141.64557266235352
+ <<< Started models/LLDrDD_lag=1_step=70_batchsize=8_earlystop_p=10.pkl at 17:29:46
+Restoring model weights from the end of the best epoch.
+Epoch 00017: early stopping
+ <<< Finished. Time elapsed: 318.4387984275818
+ <<< Started models/LLDrDD_lag=1_step=70_batchsize=16_earlystop_p=10.pkl at 17:35:07
+Restoring model weights from the end of the best epoch.
+Epoch 00032: early stopping
+ <<< Finished. Time elapsed: 367.12398743629456
+ <<< Started models/LLDrDD_lag=1_step=70_batchsize=32_earlystop_p=10.pkl at 17:41:16
+Restoring model weights from the end of the best epoch.
+Epoch 00039: early stopping
+ <<< Finished. Time elapsed: 269.18637561798096
+ <<< Started models/LLDrDD_lag=1_step=70_batchsize=64_earlystop_p=10.pkl at 17:45:47
+Restoring model weights from the end of the best epoch.
+Epoch 00055: early stopping
+ <<< Finished. Time elapsed: 230.37363147735596
+ <<< Started models/LLDrDD_lag=1_step=70_batchsize=128_earlystop_p=10.pkl at 17:49:40
+Restoring model weights from the end of the best epoch.
+Epoch 00055: early stopping
+ <<< Finished. Time elapsed: 203.4355390071869
+ <<< Started models/LLDrDD_lag=1_step=85_batchsize=8_earlystop_p=10.pkl at 17:53:06
+Restoring model weights from the end of the best epoch.
+Epoch 00026: early stopping
+ <<< Finished. Time elapsed: 393.15214347839355
+ <<< Started models/LLDrDD_lag=1_step=85_batchsize=16_earlystop_p=10.pkl at 17:59:42
+Restoring model weights from the end of the best epoch.
+Epoch 00032: early stopping
+ <<< Finished. Time elapsed: 305.7799639701843
+ <<< Started models/LLDrDD_lag=1_step=85_batchsize=32_earlystop_p=10.pkl at 18:04:49
+Restoring model weights from the end of the best epoch.
+Epoch 00041: early stopping
+ <<< Finished. Time elapsed: 227.49172163009644
+ <<< Started models/LLDrDD_lag=1_step=85_batchsize=64_earlystop_p=10.pkl at 18:08:39
+Restoring model weights from the end of the best epoch.
+Epoch 00048: early stopping
+ <<< Finished. Time elapsed: 235.89886021614075
+ <<< Started models/LLDrDD_lag=1_step=85_batchsize=128_earlystop_p=10.pkl at 18:12:37
+Restoring model weights from the end of the best epoch.
+Epoch 00056: early stopping
+ <<< Finished. Time elapsed: 214.23350620269775
+ <<< Started models/LLDrDD_lag=1_step=100_batchsize=8_earlystop_p=10.pkl at 18:16:14
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+ <<< Finished. Time elapsed: 562.9065318107605
+ <<< Started models/LLDrDD_lag=1_step=100_batchsize=16_earlystop_p=10.pkl at 18:25:39
+Restoring model weights from the end of the best epoch.
+Epoch 00028: early stopping
+ <<< Finished. Time elapsed: 373.71100068092346
+ <<< Started models/LLDrDD_lag=1_step=100_batchsize=32_earlystop_p=10.pkl at 18:31:55
+Restoring model weights from the end of the best epoch.
+Epoch 00023: early stopping
+ <<< Finished. Time elapsed: 223.1060025691986
+ <<< Started models/LLDrDD_lag=1_step=100_batchsize=64_earlystop_p=10.pkl at 18:35:40
+Restoring model weights from the end of the best epoch.
+Epoch 00039: early stopping
+ <<< Finished. Time elapsed: 224.81581330299377
+ <<< Started models/LLDrDD_lag=1_step=100_batchsize=128_earlystop_p=10.pkl at 18:39:27
+Restoring model weights from the end of the best epoch.
+Epoch 00052: early stopping
+ <<< Finished. Time elapsed: 236.3283154964447
+ <<< Started models/LLDrDD_lag=1_step=110_batchsize=8_earlystop_p=10.pkl at 18:43:26
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+ <<< Finished. Time elapsed: 644.6253354549408
+ <<< Started models/LLDrDD_lag=1_step=110_batchsize=16_earlystop_p=10.pkl at 18:54:13
+Restoring model weights from the end of the best epoch.
+Epoch 00029: early stopping
+ <<< Finished. Time elapsed: 399.29711151123047
+ <<< Started models/LLDrDD_lag=1_step=110_batchsize=32_earlystop_p=10.pkl at 19:00:54
+Restoring model weights from the end of the best epoch.
+Epoch 00045: early stopping
+ <<< Finished. Time elapsed: 350.47508811950684
+ <<< Started models/LLDrDD_lag=1_step=110_batchsize=64_earlystop_p=10.pkl at 19:06:47
+Restoring model weights from the end of the best epoch.
+Epoch 00053: early stopping
+ <<< Finished. Time elapsed: 295.93573689460754
+ <<< Started models/LLDrDD_lag=1_step=110_batchsize=128_earlystop_p=10.pkl at 19:11:45
+Restoring model weights from the end of the best epoch.
+Epoch 00049: early stopping
+ <<< Finished. Time elapsed: 197.64874482154846
+ <<< Started models/LLDrDD_lag=3_step=40_batchsize=8_earlystop_p=10.pkl at 19:15:05
+Restoring model weights from the end of the best epoch.
+Epoch 00027: early stopping
+ <<< Finished. Time elapsed: 274.08734703063965
+ <<< Started models/LLDrDD_lag=3_step=40_batchsize=16_earlystop_p=10.pkl at 19:19:41
+Restoring model weights from the end of the best epoch.
+Epoch 00030: early stopping
+ <<< Finished. Time elapsed: 213.8123276233673
+ <<< Started models/LLDrDD_lag=3_step=40_batchsize=32_earlystop_p=10.pkl at 19:23:17
+Restoring model weights from the end of the best epoch.
+Epoch 00051: early stopping
+ <<< Finished. Time elapsed: 171.21021151542664
+ <<< Started models/LLDrDD_lag=3_step=40_batchsize=64_earlystop_p=10.pkl at 19:26:09
+Restoring model weights from the end of the best epoch.
+Epoch 00053: early stopping
+ <<< Finished. Time elapsed: 94.60170865058899
+ <<< Started models/LLDrDD_lag=3_step=40_batchsize=128_earlystop_p=10.pkl at 19:27:45
+Restoring model weights from the end of the best epoch.
+Epoch 00046: early stopping
+ <<< Finished. Time elapsed: 81.24861788749695
+ <<< Started models/LLDrDD_lag=3_step=60_batchsize=8_earlystop_p=10.pkl at 19:29:08
+Restoring model weights from the end of the best epoch.
+Epoch 00020: early stopping
+ <<< Finished. Time elapsed: 224.99425101280212
+ <<< Started models/LLDrDD_lag=3_step=60_batchsize=16_earlystop_p=10.pkl at 19:32:55
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+ <<< Finished. Time elapsed: 179.60312938690186
+ <<< Started models/LLDrDD_lag=3_step=60_batchsize=32_earlystop_p=10.pkl at 19:35:56
+Restoring model weights from the end of the best epoch.
+Epoch 00029: early stopping
+ <<< Finished. Time elapsed: 124.92783617973328
+ <<< Started models/LLDrDD_lag=3_step=60_batchsize=64_earlystop_p=10.pkl at 19:38:02
+Restoring model weights from the end of the best epoch.
+Epoch 00035: early stopping
+ <<< Finished. Time elapsed: 113.13252091407776
+ <<< Started models/LLDrDD_lag=3_step=60_batchsize=128_earlystop_p=10.pkl at 19:39:57
+Restoring model weights from the end of the best epoch.
+Epoch 00052: early stopping
+ <<< Finished. Time elapsed: 99.95865535736084
+ <<< Started models/LLDrDD_lag=3_step=70_batchsize=8_earlystop_p=10.pkl at 19:41:38
+Restoring model weights from the end of the best epoch.
+Epoch 00030: early stopping
+ <<< Finished. Time elapsed: 370.97389245033264
+ <<< Started models/LLDrDD_lag=3_step=70_batchsize=16_earlystop_p=10.pkl at 19:47:51
+Restoring model weights from the end of the best epoch.
+Epoch 00034: early stopping
+ <<< Finished. Time elapsed: 288.02807903289795
+ <<< Started models/LLDrDD_lag=3_step=70_batchsize=32_earlystop_p=10.pkl at 19:52:41
+Restoring model weights from the end of the best epoch.
+Epoch 00033: early stopping
+ <<< Finished. Time elapsed: 162.3661904335022
+ <<< Started models/LLDrDD_lag=3_step=70_batchsize=64_earlystop_p=10.pkl at 19:55:25
+Restoring model weights from the end of the best epoch.
+Epoch 00028: early stopping
+ <<< Finished. Time elapsed: 92.16251611709595
+ <<< Started models/LLDrDD_lag=3_step=70_batchsize=128_earlystop_p=10.pkl at 19:56:58
+Restoring model weights from the end of the best epoch.
+Epoch 00020: early stopping
+ <<< Finished. Time elapsed: 56.106831312179565
+ <<< Started models/LLDrDD_lag=3_step=85_batchsize=8_earlystop_p=10.pkl at 19:58:17
+Restoring model weights from the end of the best epoch.
+Epoch 00026: early stopping
+ <<< Finished. Time elapsed: 297.45495772361755
+ <<< Started models/LLDrDD_lag=3_step=85_batchsize=16_earlystop_p=10.pkl at 20:03:16
+Restoring model weights from the end of the best epoch.
+Epoch 00027: early stopping
+ <<< Finished. Time elapsed: 188.20109391212463
+ <<< Started models/LLDrDD_lag=3_step=85_batchsize=32_earlystop_p=10.pkl at 20:06:26
+Restoring model weights from the end of the best epoch.
+Epoch 00030: early stopping
+ <<< Finished. Time elapsed: 144.23363661766052
+ <<< Started models/LLDrDD_lag=3_step=85_batchsize=64_earlystop_p=10.pkl at 20:08:52
+Restoring model weights from the end of the best epoch.
+Epoch 00056: early stopping
+ <<< Finished. Time elapsed: 243.9832305908203
+ <<< Started models/LLDrDD_lag=3_step=85_batchsize=128_earlystop_p=10.pkl at 20:12:58
+Restoring model weights from the end of the best epoch.
+Epoch 00056: early stopping
+ <<< Finished. Time elapsed: 173.32179021835327
+ <<< Started models/LLDrDD_lag=3_step=100_batchsize=8_earlystop_p=10.pkl at 20:15:53
+Restoring model weights from the end of the best epoch.
+Epoch 00022: early stopping
+ <<< Finished. Time elapsed: 432.5440573692322
+ <<< Started models/LLDrDD_lag=3_step=100_batchsize=16_earlystop_p=10.pkl at 20:23:08
+Restoring model weights from the end of the best epoch.
+Epoch 00031: early stopping
+ <<< Finished. Time elapsed: 376.1231050491333
+ <<< Started models/LLDrDD_lag=3_step=100_batchsize=32_earlystop_p=10.pkl at 20:29:26
+Restoring model weights from the end of the best epoch.
+Epoch 00042: early stopping
+ <<< Finished. Time elapsed: 376.8697249889374
+ <<< Started models/LLDrDD_lag=3_step=100_batchsize=64_earlystop_p=10.pkl at 20:35:45
+Restoring model weights from the end of the best epoch.
+Epoch 00031: early stopping
+ <<< Finished. Time elapsed: 183.12737774848938
+ <<< Started models/LLDrDD_lag=3_step=100_batchsize=128_earlystop_p=10.pkl at 20:38:50
+Restoring model weights from the end of the best epoch.
+Epoch 00028: early stopping
+ <<< Finished. Time elapsed: 130.26099228858948
+ <<< Started models/LLDrDD_lag=3_step=110_batchsize=8_earlystop_p=10.pkl at 20:41:03
+Restoring model weights from the end of the best epoch.
+Epoch 00019: early stopping
+ <<< Finished. Time elapsed: 489.43653988838196
+ <<< Started models/LLDrDD_lag=3_step=110_batchsize=16_earlystop_p=10.pkl at 20:49:15
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+ <<< Finished. Time elapsed: 371.7937545776367
+ <<< Started models/LLDrDD_lag=3_step=110_batchsize=32_earlystop_p=10.pkl at 20:55:29
+Restoring model weights from the end of the best epoch.
+Epoch 00038: early stopping
+ <<< Finished. Time elapsed: 332.3422679901123
+ <<< Started models/LLDrDD_lag=3_step=110_batchsize=64_earlystop_p=10.pkl at 21:01:04
+Restoring model weights from the end of the best epoch.
+Epoch 00018: early stopping
+ <<< Finished. Time elapsed: 114.86310505867004
+ <<< Started models/LLDrDD_lag=3_step=110_batchsize=128_earlystop_p=10.pkl at 21:03:02
+Restoring model weights from the end of the best epoch.
+Epoch 00062: early stopping
+ <<< Finished. Time elapsed: 262.0955469608307
