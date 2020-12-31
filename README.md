@@ -11,8 +11,6 @@ Học kì I, 2020 - 2021
 
 ## 1. Thông tin nhóm 
 
-* Link [GitHub](https://github.com/cripplinmuffin/khdlud_dack).
-
 | Tên  |MSSV|
 |-|:-:|
 | Trần Minh Trí |1712834|
@@ -136,7 +134,7 @@ Học kì I, 2020 - 2021
 
 * Phần thu thập dữ liệu sử dụng `selenium`, cần tải về [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy.
 * Dữ liệu đã được lưu ở trong thư mục "csv".
-* Ở phần huấn luyện các model, có lưu ý sau:
+* Ở phần huấn luyện các model, **do load nhiều model rất lâu** nên có lưu ý sau:
 
 ![image](./img/note_1.PNG)
 
