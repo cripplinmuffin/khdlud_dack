@@ -1,5 +1,5 @@
-Lớp **Môn Khoa học dữ liệu và Ứng dụng - 17/21**  
-Học kì II, 2019 - 2020  
+Môn **Khoa học dữ liệu và Ứng dụng - 17/21**  
+Học kì I, 2020 - 2021
 
 ---
 
@@ -10,6 +10,8 @@ Học kì II, 2019 - 2020
 ---
 
 ## 1. Thông tin nhóm 
+
+* Link [GitHub](https://github.com/cripplinmuffin/khdlud_dack).
 
 | Tên  |MSSV|
 |-|:-:|
@@ -29,7 +31,7 @@ Học kì II, 2019 - 2020
 
 #### Thu thập dữ liệu
 
-* Dữ liệu được thu thập bằng phương thức parse HTML sử dụng Selenium.
+* Dữ liệu được thu thập bằng phương thức parse HTML sử dụng `selenium`, đến ngày 17/12/2020.
 
 #### Khám phá dữ liệu
 
@@ -69,10 +71,6 @@ Học kì II, 2019 - 2020
 * Với bộ dữ liệu được xử lý đầy đủ, ta sẽ thực hiện phân tích thành phần chuỗi thời gian (**Time-series decomposition**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**:
 ![image](./img/vis_3.png)
 * Ta có nhận xét: chuỗi thời gian hoàn toàn không có tính **seasonality** hay có xu hướng - **trend** nào rõ rệt. Hơn nữa, xét về **noise**, dữ liệu mang tính khá ngẫu nhiên.
-* Ta cũng xem qua **Autocorrelation** và **Partial autocorrelation** cho chuỗi thời gian:
-![image](./img/vis_4.png)
-* Theo biểu đồ **Autocorrelation**, đến lag thứ 50, autocorrelation function ở các lag này có giá trị cách biệt đáng kể so với 0 (*statistically significant*). Có nghĩa là, giá cổ phiếu, ở đây đang xét của BVH, có tính tự tương quan lớn, tức là, nếu giá có tăng, nó thường sẽ tiếp tục tăng và ngược lại.
-* Ở biểu đồ **Partial autocorrelation**, có rất nhiều lag có giá trị vượt khỏi vùng màu xanh khoảng tin cậy. Các giá trị này có thể được nhận xét là chúng mang tính *statistically significant*.
 
 ### 3.2 Mô hình hóa
 
@@ -127,13 +125,44 @@ Học kì II, 2019 - 2020
 
 | Tên  |MSSV|Công việc thực hiện|
 |-|:-:|-:|
-| Trần Minh Trí |1712834| Huấn luyện mô hình |
-| Nguyễn Nhật Trường |1712852| Thu thập, khám phá dữ liệu + Báo cáo |
+| Trần Minh Trí |1712834| Mô hình hóa, huấn luyện, dự đoán |
+| Nguyễn Nhật Trường |1712852| Thu thập, khám phá , phân tích , tiền xử lí dữ liệu + Báo cáo |
 
 ### 4.2 Đánh giá đồ án
 
-* **wip---**
+* Trong quá trình làm đồ án, các thành viên hoạt động nhóm tốt và hỗ trợ nhau để hoàn thành phần của mình. Một số khó khăn gặp phải như việc đổi cách thu thập dữ liệu từ API sang parse HTML hay cân nhắc cách đánh giá model hợp lý. Tuy nhiên, nhóm đã hết sức cố gắng giải quyết các vấn đề trên và hoàn thành đồ án với kết quả gần như mong đợi.
 
 ## 5. Hướng dẫn chạy file Notebook
 
-* **wip---**
+* Phần thu thập dữ liệu sử dụng `selenium`, cần tải về [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy.
+* Dữ liệu đã được lưu ở trong thư mục "csv".
+* Ở phần huấn luyện các model, có lưu ý sau:
+
+![image](./img/note_1.PNG)
+
+* Các model đã được lưu lại ở thư mục "models" để rút ngắn thời gian chạy. Thực hiện đổi giá trị biến `known` để huấn luyện lại các model (mất khoảng 1h).
+* Nếu bỏ qua, file notebook chạy bình thường thông qua `Kernel - Restart & Run All`.
+
+## 6. Nguồn tham khảo
+
+[1] https://insights.magestore.com/posts/giai-thuat-time-series-forecasting
+
+[2] https://www.datacamp.com/community/tutorials/lstm-python-stock-market
+
+[3] https://randerson112358.medium.com/stock-price-prediction-using-python-machine-learning-e82a039ac2bb
+
+[4] https://viblo.asia/p/lam-quen-voi-keras-gGJ59mxJ5X2
+
+[5] https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+
+[6] https://www.tensorflow.org/api_docs/python/tf/keras/optimizers
+
+[7] https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM
+
+[8] https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
+
+[9] https://viblo.asia/p/optimizer-hieu-sau-ve-cac-thuat-toan-toi-uu-gdsgdadam-Qbq5QQ9E5D8
+
+[10] https://www.phamduytung.com/blog/2018-10-02-understanding-epoch-batchsize-iterations/
+
+[11] https://otexts.com/fpp2/prediction-intervals.html
