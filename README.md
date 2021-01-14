@@ -123,15 +123,6 @@ Học kì I, 2020 - 2021
 
 ## 4. Đánh giá
 
-### 4.1 Phân công
-
-| Tên  |MSSV|Công việc thực hiện|
-|-|:-:|-:|
-| Trần Minh Trí |1712834| Mô hình hóa, huấn luyện, dự đoán |
-| Nguyễn Nhật Trường |1712852| Thu thập, khám phá , phân tích , tiền xử lí dữ liệu + Báo cáo |
-
-### 4.2 Đánh giá đồ án
-
 * Trong quá trình làm đồ án, các thành viên hoạt động nhóm tốt và hỗ trợ nhau để hoàn thành phần của mình. Một số khó khăn gặp phải như việc đổi cách thu thập dữ liệu từ API sang parse HTML hay cân nhắc cách đánh giá model hợp lý. Tuy nhiên, nhóm đã hết sức cố gắng giải quyết các vấn đề trên và hoàn thành đồ án với kết quả gần như mong đợi.
 
 ## 5. Hướng dẫn chạy file Notebook
@@ -148,7 +139,7 @@ Học kì I, 2020 - 2021
     
     ![image](./img/keras.PNG)
     
-    * Cuối cùng, mở jupyter notebook sau khi kích hoạt mô trường tensorflow để chạy file notebook.
+    * Cuối cùng, mở jupyter notebook sau khi kích hoạt môi trường `tensorflow` để chạy file notebook.
 
 * Sau khi đẫ cài đặt các thư viện cần thiết, file notebook chạy bình thường thông qua `Kernel - Restart & Run All`.
 
