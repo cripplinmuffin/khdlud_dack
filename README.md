@@ -143,11 +143,7 @@ Học kì I, 2020 - 2021
 .
 ## 5. Hướng dẫn chạy file Notebook
 
-* Phần thu thập dữ liệu sử dụng hai thư viện không có sẵn là `selenium` và `requests-HTML`.
-* Với `selenium`, cần tải về phiên bản [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy.
-* Dữ liệu đã được lưu ở trong thư mục "csv".
-
-* Cài đặt `tensorflow` và `kera`s:
+* Cài đặt `tensorflow` và `keras`:
     * Trước hết, ta cần cài đặt `tensorflow` trên Anaconda Command Prompt (ở đây đặt tên là `tf`):
     
     ![image](./img/tensorflow.PNG)
@@ -157,8 +153,11 @@ Học kì I, 2020 - 2021
     ![image](./img/keras.PNG)
     
     * Cuối cùng, mở jupyter notebook sau khi kích hoạt môi trường `tensorflow` để chạy file notebook.
+    
+* * Phần thu thập dữ liệu sử dụng hai thư viện không có sẵn là `selenium` và `requests-HTML`. Hai thư viện này cần được cài đặt trên môi trường `tensorflow` trên, thông qua Anaconda Command Prompt, với cú pháp tương ứng là `pip install selenium` và `pip install requests-html`.
+* Với `selenium`, cần tải về phiên bản [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy, và lưu chung với thư mục chứa file notebook. Dữ liệu đã được lưu ở trong thư mục *csv*.
 
-* Sau khi đẫ cài đặt các thư viện cần thiết, file notebook chạy bình thường thông qua `Kernel - Restart & Run All`.
+* Sau khi đã cài đặt các thư viện cần thiết, file notebook chạy bình thường thông qua `Kernel - Restart & Run All`.
 
 ## 6. Nguồn tham khảo
 
