@@ -45,7 +45,13 @@ Học kì I, 2020 - 2021
 
 ![image](./img/data_2.PNG)
 
-* Phân tích thành phần chuỗi thời gian (**Time-series decomposition**) cho dãy giá đóng. Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**. Tuy nhiên, do dữ liệu được sử dụng bị thiếu ở một số ngày (vấn đề này sẽ được xử lý ở dưới), chuỗi thời gian được sử dụng không có tần số (*frequency*) cụ thể, dẫn đến quá trình decompose không thể diễn ra.
+* Ở đồ án này chỉ sử dụng cột `Close` cho mô hình hóa và dự đoán, dữ liệu được trực quan như sau:
+
+![image](./img/vis_0.png)
+
+#### Phân tích thành phần chuỗi thời gian (Time-series decomposition)
+
+* Quá trình này cho phép chuỗi thời gian được thể hiện qua 3 đặc trưng chính là **Trend**, **Seasonality** và **Noise**. Tuy nhiên, do dữ liệu được sử dụng bị thiếu ở một số ngày (vấn đề này sẽ được xử lý ở dưới), chuỗi thời gian được sử dụng không có tần số (*frequency*) cụ thể, dẫn đến quá trình decompose không thể diễn ra.
 * Để khắc phục vấn đề trên, ta phải tự định nghĩa "chu kỳ" (*period* theo [document](https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html)) của chuỗi thời gian. Period ở đây được hiểu là số lần *\observation\* (quan sát) trước khi chu trình lặp lại (có nghĩa là sang năm mới: ngày 31/12 trở về 01/01 - lặp lại chu trình). Ví dụ, giả sử dữ liệu thu thập theo từng tháng, tức là dữ liệu được quan sát 12 lần trong 1 năm hay `period = 12`. Ta cũng có thể gọi trường hợp trên là **monthly time series**.
 * Đối với bài toán hiện tại, giá cổ phiếu được thu thập "hàng ngày" trên trang web, nên ta mong muốn dữ liệu được sử dụng là **daily time series**. Tương ứng, ta đặt `period = 365`.
 ![image](./img/vis_3.png)
@@ -66,9 +72,7 @@ Học kì I, 2020 - 2021
 
 ![image](./img/data_3.PNG)
 
-### 3.2 Trực quan hóa dữ liệu
-
-* Ta có biểu đồ giá đóng cho cổ phiếu BVH như sau:
+* Trực quan kết quả sau khi tiền xử lý:
 ![image](./img/vis_1.png)
 * Biểu đồ dưới đây chỉ thể hiện giá trong 365 ngày cuối để dễ nhìn hơn số liệu thiếu được thêm vào:
 ![image](./img/vis_2.png)
@@ -123,11 +127,24 @@ Học kì I, 2020 - 2021
 
 ## 4. Đánh giá
 
-* Trong quá trình làm đồ án, các thành viên hoạt động nhóm tốt và hỗ trợ nhau để hoàn thành phần của mình. Một số khó khăn gặp phải như việc đổi cách thu thập dữ liệu từ API sang parse HTML hay cân nhắc cách đánh giá model hợp lý. Tuy nhiên, nhóm đã hết sức cố gắng giải quyết các vấn đề trên và hoàn thành đồ án với kết quả gần như mong đợi.
+#### Kinh nghiệm tích lũy
 
+* Qua đồ án này, nhóm học được nhiều về mô hình hóa dự đoán cho kiểu dữ liệu chuỗi thời gian, kiểu dữ liệu chưa được demo trực tiếp trong khóa học.
+* Học và làm quen với sử dụng pipeline cho việc huấn luyện được gọn gàng hơn.
+
+#### Khó khăn
+* Lần đầu tiếp xúc với việc dự đoán trên kiểu timeseries nên nhóm phải tốn nhiều thời gian nghiên cứu, nhưng thấy được đó vẫn chưa đủ. Tiền xử lý, mô hình hóa còn nhiều chỗ có thể cải tiến để thu được mô hình tốt hơn.
+* Cách dự đoán tương lai gần của mô hình có sai số qua các ngày tăng rất cao, hướng tăng trưởng khi đúng, khi sai tùy model. Nhóm xét thấy phần này thực hiện chưa thành công.
+
+#### Hướng phát triển nếu có thêm thời gian
+* Tìm hiểu thêm các phương pháp tiền xử lí để cải tiến mô hình.
+* Tìm hiểu thêm về cách dự đoán tương lai gần khi đã có mô hình máy học.
+* Tìm hiểu thêm và chạy thử các siêu tham số trên cái layer.
+.
 ## 5. Hướng dẫn chạy file Notebook
 
-* Phần thu thập dữ liệu sử dụng `selenium`, cần tải về [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy.
+* Phần thu thập dữ liệu sử dụng hai thư viện không có sẵn là `selenium` và `requests-HTML`.
+* Với `selenium`, cần tải về phiên bản [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy.
 * Dữ liệu đã được lưu ở trong thư mục "csv".
 
 * Cài đặt `tensorflow` và `kera`s:
