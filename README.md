@@ -124,7 +124,7 @@ Học kì I, 2020 - 2021
 * Độ lỗi trên tập test sau khi huấn luyện model được chọn với dữ liệu train và validation:
 * Model 1 ngày:
 
-![image](./img/err_1.PNG)
+![image](./img/err_1.png)
 
 ![image](./img/err_2.png)
 
