@@ -5,16 +5,16 @@ Học kì I, 2020 - 2021
 
 # ĐỒ ÁN CUỐI KÌ
 
-### Dự đoán giá cổ phiếu
+### Nhóm 5 - Dự đoán giá cổ phiếu
 
 ---
 
 ## 1. Thông tin nhóm 
 
-| Tên  |MSSV|
-|-|:-:|
-| Trần Minh Trí |1712834|
-| Nguyễn Nhật Trường |1712852|
+| Tên  |MSSV|GitHub|
+|-|:-:|-|
+| Trần Minh Trí |1712834|[StrugVN](https://github.com/StrugVN)|
+| Nguyễn Nhật Trường |1712852|[cripplinmuffin](https://github.com/cripplinmuffin)|
 
 ## 2. Nội dung đồ án
 
@@ -90,25 +90,41 @@ Học kì I, 2020 - 2021
 ### 3.3 Train model
 
 * Nhóm sử dụng **mô hình LSTM** của thư viện `keras`,  sau đó, thực hiện validation với các tham số `step`, `learning rate` và `batch_size`.
-* Kết quả các model:
+* Kết quả các model 1 ngày:
 
 ![image](./img/model_1.PNG)
 
+* Kết quả các model 7 ngày:
+
+![image](./img/model_7.PNG)
+
 ### 3.4 Kết quả
 
-* Model tốt nhất được chọn:
+* Model 1 ngày tốt nhất được chọn:
 
-![image](./img/best_model.PNG)
+![image](./img/best_model_1.PNG)
+
+* Model 7 ngày tốt nhất được chọn:
+
+![image](./img/best_model_7.PNG)
 
 * Trực quan hóa kết quả của model được chọn trên tập validation:
+* Model 1 ngày:
 
 ![image](./img/val_res_1.png)
 
 ![image](./img/val_res_2.png)
 
-* Độ lỗi trên tập test sau khi huấn luyện model được chọn với dữ liệu train và validation:
+* Model 7 ngày:
 
-![image](./img/err_1.png)
+![image](./img/val_res_7.png)
+
+![image](./img/val_res_8.png)
+
+* Độ lỗi trên tập test sau khi huấn luyện model được chọn với dữ liệu train và validation:
+* Model 1 ngày:
+
+![image](./img/err_1.PNG)
 
 ![image](./img/err_2.png)
 
@@ -116,14 +132,33 @@ Học kì I, 2020 - 2021
 
 ![image](./img/err_4.png)
 
+![image](./img/err_5.png)
+
+* Model 7 ngày:
+
+![image](./img/err_7.PNG)
+
+![image](./img/err_8.png)
+
+![image](./img/err_9.png)
+
+![image](./img/err_10.png)
+
+![image](./img/err_11.png)
+
 ### 3.5 Dự đoán
 
 * Nhóm thử dự đoán giá đóng cửa cho 7 ngày tiếp theo, với mỗi ngày dự đoán được thêm vào chuỗi quan sát để dự đoán cho ngày tiếp theo:
     * Y(n) = f(O(n-1), O(n-2),...)
     * Y(n+1) = f(Y(n), O(n-1), O(n-2),...)
 * Kết quả thu được như sau:
+* Model 1 ngày:
 
 ![image](./img/predict_1.png)
+
+* Model 7 ngày:
+
+![image](./img/predict_7.png)
 
 ## 4. Đánh giá
 
@@ -133,8 +168,8 @@ Học kì I, 2020 - 2021
 * Học và làm quen với sử dụng pipeline cho việc huấn luyện được gọn gàng hơn.
 
 #### Khó khăn
-* Lần đầu tiếp xúc với việc dự đoán trên kiểu timeseries nên nhóm phải tốn nhiều thời gian nghiên cứu, nhưng thấy được đó vẫn chưa đủ. Tiền xử lý, mô hình hóa còn nhiều chỗ có thể cải tiến để thu được mô hình tốt hơn.
-* Cách dự đoán tương lai gần của mô hình có sai số qua các ngày tăng rất cao, hướng tăng trưởng khi đúng, khi sai tùy model. Nhóm xét thấy phần này thực hiện chưa thành công.
+* Lần đầu tiếp xúc với việc dự đoán trên kiểu timeseries nên nhóm phải tốn nhiều thời gian nghiên cứu, nhưng thấy được đó vẫn chưa đủ.
+* Tiền xử lý, mô hình hóa còn nhiều chỗ có thể cải tiến để thu được mô hình tốt hơn.
 
 #### Hướng phát triển nếu có thêm thời gian
 * Tìm hiểu thêm các phương pháp tiền xử lí để cải tiến mô hình.
@@ -154,7 +189,7 @@ Học kì I, 2020 - 2021
     
     * Cuối cùng, mở jupyter notebook sau khi kích hoạt môi trường `tensorflow` để chạy file notebook.
     
-* * Phần thu thập dữ liệu sử dụng hai thư viện không có sẵn là `selenium` và `requests-HTML`. Hai thư viện này cần được cài đặt trên môi trường `tensorflow` trên, thông qua Anaconda Command Prompt, với cú pháp tương ứng là `pip install selenium` và `pip install requests-html`.
+* Phần thu thập dữ liệu sử dụng hai thư viện không có sẵn là `selenium` và `requests-HTML`. Hai thư viện này cần được cài đặt trên môi trường `tensorflow` trên, thông qua Anaconda Command Prompt, với cú pháp tương ứng là `pip install selenium` và `pip install requests-html`.
 * Với `selenium`, cần tải về phiên bản [chromedriver](https://chromedriver.chromium.org/downloads) phù hợp dựa theo phiên bản trình duyệt Google Chrome của máy, và lưu chung với thư mục chứa file notebook. Dữ liệu đã được lưu ở trong thư mục *csv*.
 
 * Sau khi đã cài đặt các thư viện cần thiết, file notebook chạy bình thường thông qua `Kernel - Restart & Run All`.
